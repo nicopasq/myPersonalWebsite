@@ -1,26 +1,21 @@
-body{
-    background-color: rgb(23, 33, 66);
-}
+html, body{margin:0; padding:0;}
+
 #name{
     text-align: center;
 }
-ul{
+div{
+    height: 970px;
+    width: 100%;
     position: relative;
-    top: -60px;
-    left: -20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    float: right;
+    top:0;
+    left:0;
 }
-li{
-    display: inline;
-    padding-left: 20px;
-    position: relative;
+.page1{
+    background-color: blue;
 }
-
-li a{
-    color: grey;
-    text-decoration-color: green;
-    font-size:larger;
+.page2{
+    background-color: green;
+}
+.page3{
+    background-color: brown;
 }
