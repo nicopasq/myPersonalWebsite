@@ -1,4 +1,8 @@
-html, body{margin:0; padding:0;}
+html, body{
+    z-index: 1;
+    margin:0;
+    padding:0;
+}
 div{
     height: 100vh;
     width: 100%;
@@ -8,7 +12,7 @@ div{
     padding:1px;
 }
 .page1{
-    background-image:url(./images/Website_Background.jpeg);
+    background-image: url('https://wallpapercave.com/wp/ESQJKJ9.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +28,18 @@ div{
 #page1Main{
     text-align: center;
     font-size:40px;
-    color:grey;
-    text-decoration: underline;
+    color:#41486e;
     top: 25vh;
+    text-decoration:underline;
+}
+#gitHubIcon{
+    z-index: 100;
+    background-color: pink;
+    top: -100.5vh;
+    left: 0;
+    height: 40px;
+}
+#gitHubIcon, a{
+    text-align: right;
+    padding: 5px;
 }
