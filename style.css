@@ -17,10 +17,10 @@ div{
     background-size: cover;
 }
 .page2{
-    background-color: green;
+    background-color:burlywood;
 }
 .page3{
-    background-color: brown;
+    background-color:burlywood;
 }
 .title{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -45,4 +45,18 @@ div{
     left:97%;
     height: 50px;
     width: 50px;
+}
+#linkedinLogo{
+    position: relative;
+    top: 0;
+    left:90%;
+    height: 50px;
+    width: 50px; 
+}
+#blackGrad{
+    z-index: 100;
+    background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.371), rgba(0, 0, 0, 0.208), rgba(0, 0, 0, 0.075));
+    top: -100.5vh;
+    left: 0;
+    height: 90px;
 }
