@@ -17,7 +17,7 @@ div{
     background-size: cover;
 }
 .page2{
-    background-color:burlywood;
+    background-color:#967346; 
 }
 .page3{
     background-color:burlywood;
@@ -59,4 +59,24 @@ div{
     top: -100.5vh;
     left: 0;
     height: 90px;
+}
+#about{
+    font-size: 40px;
+    color:#eddbdd;
+    text-decoration: underline;
+    position:absolute;
+    top: 28vh;
+    left: 400px;
+}
+#aboutPara{
+    width: 1000px;
+    font-size: 25px;
+    color:#ededed;
+    position: absolute;
+    top: 35vh;
+    left: 400px;
+}
+#intoSong{
+    height: 0;
+    width: 0;
 }
